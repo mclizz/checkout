@@ -1,4 +1,4 @@
-name: 'Checkout'
+]name: 'Checkout'
 description: 'Checkout a Git repository'
 inputs: 
   repository:
@@ -20,3 +20,4 @@ inputs:
     description: 'Optional path to check out source code'  
 runs:
   plugin: 'checkout'
+GET /repos/:owner/:repo/statuses/:ref.
